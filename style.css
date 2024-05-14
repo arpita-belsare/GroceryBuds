@@ -1,0 +1,125 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+width:100vw;
+height: 100vh;
+/* border: 2px solid rebeccapurple; */
+display: flex;
+justify-content: center;
+align-items: center;
+    background:linear-gradient(#a9bbb2,#8d8290);
+
+}
+.section-center{
+    width: 30%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* background:linear-gradient(#b7e7f4,#396854); */
+    padding: 2%;
+    box-shadow:4px 7px 18px #a4a9a4;
+    background:linear-gradient(#a9bbb2,#8d8290);
+    border: 1px solid rgb(199, 194, 194);
+}
+.section-form h3{
+    font-family: "popins",sans-serif;
+    letter-spacing: 0.1em;
+    margin: 0.6em;
+    text-align: center;
+    color: rgb(20, 91, 94);
+    font-weight: 800;
+    font-size: 1.5em;
+}
+.section-form{
+    width: 100%;
+}
+.section-center input {
+   width: 70%;
+   outline: none;
+   height: 2em;
+   padding: 0.1em 0.7em;
+   font-size: 0.9em;
+   font-weight: 560;
+color: rgb(105, 102, 102);
+border-radius: px;
+background: rgb(222, 222, 238);
+   border: 1px solid rgb(224, 224, 229);
+}
+.section-form button{
+padding: 0.5em;
+font-size: 0.8em;
+ background: rgb(222, 222, 250);
+ border: none;
+ color: rgb(8, 8, 132);
+ font-weight:550;
+ border-radius: 4px;
+}
+.submit-btn:hover{
+    background: #102c12;
+    color: white;
+}
+.grocery-container{
+    width: 100%;
+    /* height: ; */
+    border: 1px solid rebeccapurple;
+    margin: 1em 0px;
+    visibility: hidden;
+}
+.show-container {
+    visibility: visible;
+}
+.clear-btn{
+    text-align: center;
+    background-color: aquamarine;
+    margin: 1em 33%;
+    padding: 0.5em 3%;
+    border: none;
+    border-radius: 10px;
+}
+.grocery-item{
+    padding: 2%;
+    display: flex;
+    margin:0.5em 0.5em;
+    justify-content: space-between;
+    font-size:1.5em;
+}
+.edit-btn,.delete-btn{
+background: transparent;
+border: none;
+}
+.delete-btn:hover{
+    color:red;
+}
+.edit-btn:hover{
+    color:blue;
+}
+.clear-btn:hover{
+    background: rgb(32, 9, 32);
+    color: white;
+}
+
+.alert-danger
+{
+    background-color: aliceblue;
+    color:red;
+    text-align: center;
+    font-size: 1.5em;
+}
+@media screen and (max-width:700px) {
+    .section-center{
+        width: 70%;
+    }
+
+}
+@media screen and (max-width:300px) {
+    .section-center{
+        width: 95%;
+    }
+
+}
